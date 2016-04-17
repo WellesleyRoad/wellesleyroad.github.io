@@ -1,0 +1,190 @@
+body {
+	background-color :#FEECBB;
+	width :100%;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	}
+	
+#container {
+	padding : 0px
+	margin: 0;
+	
+}
+#header {
+	width :100%;
+	background-color :background-color: #37833b;
+	width:1050px;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+#logo{
+	display: block;
+	width:1188px;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+#footer {
+	clear : both;
+}
+
+#nav	{
+	width: 100%; /* Spans the width of the page */
+	height: 40px; 
+	margin: 0; /* Ensures there is no space between sides of the screen and the menu */
+	z-index: 99; /* Makes sure that your menu remains on top of other page elements */
+	position: relative; 
+	background-color:  #FEECBB;;
+	}
+
+.navbar	{
+	height: 40px;
+    padding: 0;
+	margin: 0;
+	position: absolute; /* Ensures that the menu doesn’t affect other elements */
+	border-right: 1px solid #34ab3a; 
+	
+	left:50%;
+	margin-left:-525px; /* negative margin equal to half the width */
+	width:1050px;
+	}	
+	
+.navbar li 	{
+			height: auto;
+			width: 150px;  /* Each menu item is 150px wide */
+			float: left;  /* This lines up the menu items horizontally */
+			text-align: center;  /* All text is placed in the center of the box */
+			list-style: none;  /* Removes the default styling (bullets) for the list */
+			font: normal bold 14px/1.4em Arial,Verdana,Helvetica;  
+			padding: 0;
+			margin: 0;
+			background-color: #37833b;
+            }
+
+.navbar a	{							
+		padding: 9px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+		border-left: 1px solid #34ab3a; /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
+		border-right: 1px solid #263f08; /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+		text-decoration: none;  /* Removes the default hyperlink styling. */
+		color: white; /* Text color is white */
+		display: block;
+		
+		text-align:center;
+		}		
+
+.navbar li:hover, a:hover {background-color: #34ab3a;}  
+
+.navbar li ul 	{
+		display: none;  /* Hides the drop-down menu */
+		height: auto;									
+		margin: 0; /* Aligns drop-down box underneath the menu item */
+		padding: 0; /* Aligns drop-down box underneath the menu item */			
+		}				
+
+.navbar li:hover ul 	{
+                        display: block; /* Displays the drop-down box when the menu item is hovered over */
+                        }
+
+.navbar li ul li {background-color: #34ab3a;} 
+
+.navbar li ul li a 	{
+		border-left: 1px solid #263f08; 
+		border-right: 1px solid #263f08; 
+		border-top: 1px solid #9fdea1; 
+		border-bottom: 1px solid #263f08; 
+		}
+				
+.navbar li ul li a:hover	{background-color: #37833b;}
+ 
+ 
+ 
+  #main { width:1050px; 
+  margin-left: auto; 
+  background-color:#FEECBB;
+  margin-right: auto;
+  font-size: 14px;
+  padding: 0.3em;
+ 
+
+  }
+  
+#left_col {
+   float:left;
+   width:690px;
+   
+}
+#right_col {
+   float:right;
+   font-style: italic;
+   width:340px;
+   margin-left:20px;
+}
+
+#images {
+	font-style: italic;
+	font-size: 10px;
+	text-decoration: none; 
+	display: block;
+    margin: 0 auto;
+ }
+/*
+img {
+    display: block;
+    margin: 0 auto;
+}*/
+
+IMG.sectionend {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+	
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+	
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 2em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}  
+
+blockquote:after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 2em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}  
+
+
+img {
+    -webkit-box-shadow: 3px 3px 3px #7C7C7C;
+    box-shadow: 3px 3px 3px #7C7C7C;
+    }
+    
+img.noborder {
+    border: 0px;
+    -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);
+    -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);
+    border-radius: 0px 0px 0px 0px;
+    background: none;
+}
+  
+
+  
+  
+
+
+
+ 
+
